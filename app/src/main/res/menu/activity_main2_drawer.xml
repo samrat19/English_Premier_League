@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_equalizer_black_24dp"
+            android:title="Standings "/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_compare_arrows_black_24dp"
+            android:title="Result" />
+        <item
+            android:id="@+id/nav_champion"
+            android:title="Champions"
+            android:icon="@drawable/ic_keyboard_arrow_up_black_24dp"/>
+    </group>
+
+
+</menu>
